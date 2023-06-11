@@ -13,6 +13,7 @@
 		66AE1CE42A3635240071AC7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AE1CE32A3635240071AC7C /* Preview Assets.xcassets */; };
 		66AE1CEC2A36406E0071AC7C /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66AE1CEA2A36406E0071AC7C /* Bookworm.xcdatamodeld */; };
 		66AE1CEE2A3640FC0071AC7C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE1CED2A3640FC0071AC7C /* DataController.swift */; };
+		66AE1CF02A365DF70071AC7C /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE1CEF2A365DF70071AC7C /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		66AE1CE32A3635240071AC7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66AE1CEB2A36406E0071AC7C /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		66AE1CED2A3640FC0071AC7C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		66AE1CEF2A365DF70071AC7C /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				66AE1CEA2A36406E0071AC7C /* Bookworm.xcdatamodeld */,
+				66AE1CEF2A365DF70071AC7C /* AddBookView.swift */,
 				66AE1CDB2A3635230071AC7C /* Bookworm */,
 				66AE1CDA2A3635230071AC7C /* Products */,
 			);
@@ -147,6 +150,7 @@
 				66AE1CEE2A3640FC0071AC7C /* DataController.swift in Sources */,
 				66AE1CEC2A36406E0071AC7C /* Bookworm.xcdatamodeld in Sources */,
 				66AE1CDD2A3635230071AC7C /* BookwormApp.swift in Sources */,
+				66AE1CF02A365DF70071AC7C /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
