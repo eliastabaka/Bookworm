@@ -14,7 +14,7 @@ struct AddBookView: View {
     @State private var title = ""
     @State private var author = ""
     @State private var rating = 3
-    @State private var genre = ""
+    @State private var genre = "Fantasy" // hard-coded
     @State private var review = ""
     
     let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
@@ -43,10 +43,11 @@ struct AddBookView: View {
                 
                 Section {
                     Button("Save") {
+                        
                         let newBook = Book(context: moc)
                         newBook.id = UUID()
-                        newBook.title = title
-                        newBook.author = author
+                        newBook.title = title.isEmpty ? "Unspecified" : title
+                        newBook.author = author.isEmpty ? "Unspecified" : author
                         newBook.rating = Int16(rating)
                         newBook.genre = genre
                         newBook.review = review
@@ -57,6 +58,7 @@ struct AddBookView: View {
                 }
             }
             .navigationTitle("Add Book")
+            
         }
     }
 }
